@@ -1,0 +1,47 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build output
+/dist
+/build
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv files (very important)
+/.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+*.swp
+
+# coverage
+/coverage
+
+# next.js specific (if using)
+/.next
+out
+
+# jest testing
+/jest.config.js
+/.jest/
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
